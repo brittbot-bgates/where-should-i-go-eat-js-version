@@ -1,0 +1,21 @@
+<%- include("partials/header") -%>
+
+<div class="container">
+    <div class="row button-row">
+      <div class="col">
+        <form action="/" method="POST">
+          <button class="button" name="restaurant" type="submit" onclick="<%= randomRestaurant %>">Chain Restaurant</button>
+        </form>
+      </div>
+      <div class="col">
+        <button class="button" name="google maps" type="submit" onclick=window.open("https://www.google.com/maps/search/?api=1&query=restaurants");>Local Restaurant</button>
+        <p class="desktop-local-restaurant mobile-small-local-restaurant mobile-large-local-restaurant">Search Via Google Maps</p>
+      </div>
+      <div class="col">
+        <button class="button" name="start-over" type="submit" onclick="location.href=location.href">Reset</button>
+      </div>
+      <p class="desktop-restaurant-result mobile-small-restaurant-result mobile-large-restaurant-result">You Should Go Eat At <%= restaurantResult %></p>
+    </div>
+  </div>
+
+<%- include("partials/footer") -%>
