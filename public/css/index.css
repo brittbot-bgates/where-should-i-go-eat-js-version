@@ -1,0 +1,149 @@
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  font-weight: 500;
+  margin: auto;
+  display: block;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff300;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff8b00;
+}
+
+.button-row {
+  margin-top: 50px;
+}
+
+.desktop-title {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.desktop-subtitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #777777;
+  color: #FFF;
+}
+
+.desktop-local-restaurant {
+  text-align: center;
+}
+
+.desktop-restaurant-result {
+  margin-top: 75px;
+  border: 6px solid #FFF;
+  padding: 4px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #0083ff;
+}
+
+.desktop-social-media {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .button-row {
+    margin-top: 10px;
+  }
+
+  .mobile-small-title {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .mobile-small-subtitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-small-local-restaurant {
+    font-size: 16px;
+  }
+
+  .mobile-small-restaurant-result {
+    margin-top: 10px;
+    border: 2px solid #FFF;
+    font-size: 20px;
+  }
+
+  .mobile-small-social-media {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .button-row {
+    margin-top: 20px;
+  }
+
+  .mobile-small-title {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .mobile-small-subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-small-local-restaurant {
+    font-size: 16px;
+  }
+
+  .mobile-small-restaurant-result {
+    margin-top: 10px;
+    border: 4px solid #FFF;
+    font-size: 26px;
+  }
+
+  .mobile-small-social-media {
+    position: relative;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-large-subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-large-local-restaurant {
+    font-size: 16px;
+  }
+
+  .mobile-large-restaurant-result {
+    margin-top: 10px;
+    border: 4px solid #FFF;
+    font-size: 30px;
+  }
+}
